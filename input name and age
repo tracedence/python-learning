@@ -1,0 +1,5 @@
+#input function return string value
+name = input("enter your name")
+age= input("enter your age")
+print("name "+name)
+print("age "+age)
