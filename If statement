@@ -1,0 +1,12 @@
+#int function retrun integer of given string
+x = int(input("please enter a number"))
+
+#check whether x is less than zero or not 
+if x < 0:
+    x = 0
+    #x < 0 true then print this result
+    print("x value change from negative to zero")
+
+#if x < 0 false then print this result
+elif x > 0:
+    print("x is greater than zero")
