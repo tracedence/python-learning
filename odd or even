@@ -1,0 +1,9 @@
+number = int(input("please enter a number"))
+
+#modulus operator return remainder 
+if number % 2 == 0:
+    print("number is even")
+    if number % 4 == 0:
+        print("number is multiple of 4")
+else:
+    print("number is odd")
