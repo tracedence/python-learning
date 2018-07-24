@@ -1,0 +1,6 @@
+print("233",int("233"))
+#output 233 233
+
+print(int("23hel"))
+#ValueError: invalid literal for int() with base 10: '23hel' 
+#A ValueError most often occurs when you pass a parameter to a function and the function is expecting one type and you pass different type
