@@ -1,0 +1,22 @@
+#variable to store start day
+starting_day = input('please enter starting day number(0-9)')
+
+#variable to store length of holidays
+length_of_stay = input('please enter number of days stay')
+
+return_day =  (int(starting_day) + int(length_of_stay))% 7
+
+if return_day == 0:
+    print(str(return_day)+" "+"Sunday")
+elif return_day == 1:
+    print(str(return_day)+" "+"Monday")
+elif return_day == 2:
+    print(str(return_day)+" "+"Tuesday")
+elif return_day == 3:
+    print(str(return_day)+" "+"Wednesday")
+elif return_day == 4:
+    print(str(return_day)+" "+"Thursday")
+elif return_day == 5:
+    print(str(return_day)+" "+"Friday")
+elif return_day == 6:
+    print(str(return_day)+" "+"Saturday")
