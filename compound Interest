@@ -1,0 +1,8 @@
+principal = 10000
+number_of_times = 12
+rate = 0.08
+duration = int(input('please enter number of year'))
+
+amount = principal*(1+rate/number_of_times)**(number_of_times*duration)
+
+print(amount)
