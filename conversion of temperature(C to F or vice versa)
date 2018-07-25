@@ -1,0 +1,12 @@
+#variable to enter choice
+choice = int(input('1. convert celsius into fahrenheit\n 2. convert fahrenheit into celsius'))
+
+if choice == 1:
+    celsius = input('enter temperature in celsius')
+    fahrenheit = float(celsius)*1.8 +32
+    print('temperature in fahrenheit',fahrenheit)
+
+if choice == 2:
+    fahrenheit = input('enter temperature in fahrenheit')
+    celsius = float(fahrenheit)/1.8 -32
+    print('temperature in celsius =',celsius)
