@@ -1,0 +1,15 @@
+#variable to store current time from user(in hours)
+current_time = input('please enter current time(in hours)')
+
+#variable to store time when alarm will ring(in hours)
+set_alarm = input('please enter time of alarm(in hours)')
+
+time_of_alarm =  (int(current_time) + int(set_alarm))% 24
+
+print(time_of_alarm)
+
+if time_of_alarm > 12:
+    print('time when alarm ring= '+str(time_of_alarm)+'('+str(time_of_alarm%12)+'pm'+')')
+else:
+    print('time when alarm ring= '+str(time_of_alarm)+'am')
+
