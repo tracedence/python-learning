@@ -1,0 +1,28 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor('peachpuff')
+triangle = turtle.Turtle()
+square = turtle.Turtle()
+hexagon = turtle.Turtle()
+octagon = turtle.Turtle()
+ 
+#for equilateral triangle 
+for i in range(3):
+    triangle.forward(100)
+    triangle.left(120)
+#for square
+square.color('red')
+for i in range(4):
+    square.forward(100)
+    square.left(90)
+#for hexagon
+hexagon.color('blue')
+for i in range(6):
+    hexagon.forward(100)
+ 
+   hexagon.left(60)
+#for octagon
+octagon.color('green')
+for i in range(8):
+    octagon.forward(100)
+    octagon.left(45)
