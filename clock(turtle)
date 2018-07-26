@@ -1,0 +1,21 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor('peachpuff')
+
+joe = turtle.Turtle()
+
+joe.up()
+
+joe.stamp()
+for no in range(12):
+    joe.forward(80)
+    joe.stamp()
+    joe.forward(-80)
+    joe.left(30)
+
+joe.shape('turtle')
+for no in range(12):
+    joe.forward(100)
+    joe.stamp()
+    joe.forward(-100)
+    joe.left(30)
