@@ -25,5 +25,13 @@ joe.left(90)
 joe.forward(150)
 joe.left(90)
 joe.forward(150)
+joe.left(90)
 
+
+#draw line using for statement
+joe.color('blue')
+for i in [0,1,2,3]:
+  joe.forward(150)
+  joe.left(90)
+  
 wn.exitonclick()
