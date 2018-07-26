@@ -1,0 +1,32 @@
+import turtle              
+import random
+wn = turtle.Screen()       
+wn.bgcolor('lightblue')
+
+joe = turtle.Turtle()    
+chandler = turtle.Turtle()
+chandler.color('red')
+joe.color('blue')
+
+#shape of drawing line
+chandler.shape('turtle')
+joe.shape('turtle')
+
+#up function will not draw 
+andy.up()                  
+lance.up()
+
+#take the following object to specific position in graphic window
+andy.goto(-100,20)
+lance.goto(-100,-20)
+
+# your code goes here
+for i in range(2):
+    x = random.randrange(1,100)
+    andy.forward(x)
+    andy.stamp()
+    andy.speed(1)
+    lance.forward(100)
+    lance.speed(1)
+    lance.stamp()
+wn.exitonclick()
