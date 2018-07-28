@@ -1,0 +1,11 @@
+def square(x):
+    #variable to sum of each iteration
+    total = 0
+    for counter in range(x):
+        total = total + x
+
+    return total
+
+toSquare = 10
+squareResult = square(toSquare)
+print("The result of", toSquare, "squared is", squareResult)
