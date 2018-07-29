@@ -1,0 +1,17 @@
+def drawRectangle(object,side):
+ 
+    for turn in range(10):
+        object.forward(side)
+        object.left(90)
+        side = side + 3
+        
+        
+import turtle
+wn = turtle.Screen()
+wn.bgcolor('lightgreen')
+
+joe = turtle.Turtle()
+joe.color('blue')
+
+side = 10
+drawRectangle(joe, side)
