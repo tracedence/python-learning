@@ -1,0 +1,13 @@
+def drawPloy(object,side,length):
+    for turn in range(side):
+        object.forward(length)
+        object.left(360/side)
+        
+import turtle
+wn = turtle.Screen()
+wn.bgcolor('lightgreen')
+
+joe = turtle.Turtle()
+side = int(input('enter side number of side of polygon'))
+length = int(input('enter length of side'))
+drawPloy(joe,side,length)
