@@ -1,0 +1,17 @@
+import random
+def creationOfRandomList(size):
+    randlist = []
+    for times in range(size):
+        randlist.append(random.randrange(1,size))
+    return randlist
+
+size = int(input('enter the size'))
+list_a = creationOfRandomList(size)
+list_b = creationOfRandomList(size)
+print(list_a,list_b)
+commonlist = []
+for element in list_a:
+    if element in list_b:
+        commonlist.append(element)
+ 
+print(commonlist)
